@@ -10,7 +10,7 @@ public class Array {
     }
     public void add(int newNum) {
         if (arElement >= sortArr.length) {
-            //     display();
+                display();
             System.out.println("Ошибка: элемент " + newNum + " не влез в массив");
             System.exit(0);
         }
