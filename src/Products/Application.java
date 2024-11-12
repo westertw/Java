@@ -13,4 +13,5 @@ public class Application {    public static void main(String[] args) {
     System.out.println(myProducts.addProduct(product4));
     System.out.println(myProducts.addProduct(product5));
     System.out.println(myProducts.addProduct(product6));
-}}
+    }
+}
