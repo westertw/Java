@@ -36,4 +36,8 @@ public Mountains(String name, String country, String height) {
         this.height = height;
     }
 
+    @Override
+    public String toString() {
+        return " Гора " + name + " Страна " + country + " Высота " + height;
+    }
 }

@@ -7,4 +7,7 @@ public class Groups {
     }
     public void addClimber(Climber climber1) {
     }
+
+
+
 }

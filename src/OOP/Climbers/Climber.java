@@ -33,4 +33,9 @@ public class Climber {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    @Override
+    public String toString() {
+        return " Имя " + name  + " Возраст " + age + " Адрес " + address;
+    }
 }
