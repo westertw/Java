@@ -5,7 +5,6 @@ import java.util.List;
 
 public class MyProducts {
 
-
     private double maxProtein;
     private double maxFat;
     private double maxCarbohydrates;

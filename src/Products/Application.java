@@ -1,4 +1,5 @@
 package Products;
+
 public class Application {    public static void main(String[] args) {
     MyProducts myProducts = new MyProducts(100.0, 50.0, 200.0, 500.0);
     Product product1 = new Product("Яблоко", 0.3, 0.2, 14.0, 52.0);

@@ -20,7 +20,6 @@ public class Product {
         this(name, protein, fat, carbohydrates, 0.0);
     }
 
-
     public Product(String name, double protein, double fat, double carbohydrates, double calories) {
         if(protein < 0 || fat < 0 || carbohydrates < 0 || calories < 0) {
             throw new IllegalAccessException("Нельзя использовать отрицательные значения");
