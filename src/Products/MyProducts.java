@@ -21,6 +21,9 @@ public class MyProducts {
     }
 
     public String addProduct(Product product) {
+        if (product.getName() == null) {
+            return "не можем добавить null";
+        }
         if (product.getProtein() > maxProtein) {
             return "Продукт" + product.getName() + " не может быть добавлен: слишком много белков";
         }
@@ -36,14 +39,4 @@ public class MyProducts {
         product.add(product);
         return "Продукт " + product.getName() + " добавлен";
     }
-
-    public List<String> getProductNames() {
-        List<String> names = new ArrayList<>();
-        for (Product product : products) {
-            names.add(product.getName());
-
-        }
-        return names;
-    }
-    }
-
+}
